@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flappy Sheep</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="game-shell" aria-label="Flappy Sheep game">
+      <section class="hero-panel">
+        <p class="eyebrow">Black Sheep Arcade</p>
+        <h1>Flappy Sheep</h1>
+        <p class="tagline">Dodge pipes, grab golden clovers, and chase your best score.</p>
+      </section>
+
+      <section class="game-card">
+        <div class="hud" aria-live="polite">
+          <div>
+            <span class="label">Score</span>
+            <strong id="score">0</strong>
+          </div>
+          <div>
+            <span class="label">Best</span>
+            <strong id="best-score">0</strong>
+          </div>
+          <div>
+            <span class="label">Coins</span>
+            <strong id="coins">0</strong>
+          </div>
+        </div>
+
+        <canvas id="game" width="420" height="640" aria-label="Flappy Sheep play area"></canvas>
+
+        <div id="overlay" class="overlay">
+          <p class="status" id="status">Ready?</p>
+          <h2 id="overlay-title">Tap to fly</h2>
+          <p id="overlay-copy">Press Space, click, or tap. Stay between the pipes and collect clovers.</p>
+          <button id="start-button" type="button">Start game</button>
+        </div>
+      </section>
+
+      <section class="tips">
+        <p><strong>Controls:</strong> Space, click, or tap to flap.</p>
+        <p><strong>Modifier:</strong> every 5 points the pipes move faster and tighten up.</p>
+      </section>
+    </main>
+
+    <script src="./game.js" type="module"></script>
+  </body>
+</html>

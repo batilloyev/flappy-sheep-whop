@@ -1,0 +1,10 @@
+{
+  "name": "whop-connection",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "game:serve": "node scripts/serve-game.mjs",
+    "whop:check": "node scripts/check-whop-connection.mjs"
+  }
+}
