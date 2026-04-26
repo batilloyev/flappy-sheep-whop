@@ -38,6 +38,12 @@ Note: `/api/v5/me` is for user/OAuth or app proxy tokens. If your key is a compa
 
 ## Flappy Sheep game
 
+Live site:
+
+```text
+https://batilloyev.github.io/flappy-sheep-whop/
+```
+
 The game source is in `game/`:
 
 - `game/index.html` defines the page and HUD.
