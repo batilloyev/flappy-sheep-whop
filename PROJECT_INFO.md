@@ -45,6 +45,7 @@
 - `game/assets/flappy-sheep-hero.png`: 16:9 Whop app store hero image
 - `game/assets/flappy-sheep-gameplay.png`: 16:9 Whop app store gameplay image
 - `game/assets/flappy-sheep-challenge.png`: 16:9 Whop app store challenge image
+- `game/assets/flappy-sheep-screenshot.png`: 16:9 screenshot-style gameplay image
 - `scripts/serve-game.mjs`: local static server
 - `lib/whop-client.mjs`: Whop API helper
 - `scripts/check-whop-connection.mjs`: Whop API connection checker
