@@ -42,6 +42,8 @@
 - `game/index.html`: game page structure
 - `game/styles.css`: visual design and responsive layout
 - `game/game.js`: gameplay logic
+- `game/assets/flappy-sheep-hero.png`: 16:9 Whop app store hero image
+- `game/assets/flappy-sheep-gameplay.png`: 16:9 Whop app store gameplay image
 - `scripts/serve-game.mjs`: local static server
 - `lib/whop-client.mjs`: Whop API helper
 - `scripts/check-whop-connection.mjs`: Whop API connection checker
@@ -92,7 +94,7 @@ git branch -D gh-pages-update
 
 ## Helpful next steps
 
-- Add two 16:9 app store images in the Whop app settings.
+- Upload the two 16:9 app store images from `game/assets/` in the Whop app settings.
 - Add or replace the app icon with a clean 512x512 brand icon if needed.
 - Publish the app only when you are ready for the Whop app store review.
 - Keep the Whop product free while improving player acquisition.
